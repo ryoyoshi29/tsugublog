@@ -15,9 +15,9 @@ export default function Profile() {
       <div>
         <div className="pt-6 space-y-2 md:space-y-5">
           <PageTitle>{siteMetadata.author}</PageTitle>
-          <p className="text-gray-500 dark:text-gray-400">
+          {/* <p className="text-gray-500 dark:text-gray-400">
             {siteMetadata.belongs}
-          </p>
+          </p> */}
           <div className="flex mb-3 space-x-4">
             <SocialIcon
               kind="mail"
